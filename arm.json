@@ -2,25 +2,6 @@
   "$schema": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-#      "serverName": {
-#        "type": "string",
-#        "metadata": {
-#          "defaultValue":"[uniqueString('sql', resourceGroup().id)]",
-#          "description": "The name of the SQL logical server."
-#        }
-#      },
-#      "administratorLogin": {
-#          "type": "string",
-#          "metadata": {
-#            "description": "The administrator username of the SQL logical server."
-#          }
-#      },
-#      "administratorLoginPassword": {
-#          "type": "securestring",
-#          "metadata": {
-#            "description": "The administrator password of the SQL logical server."
-#          }
-#      },
       "enableADS": {
           "defaultValue": false,
           "type": "bool"
